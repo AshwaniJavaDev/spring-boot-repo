@@ -1,0 +1,26 @@
+type User{
+	
+	userID: ID
+	fullname: String
+	address: String
+	phone: String
+	order: Order
+	
+}
+
+
+type Order{
+	
+	orderID: ID
+	orderDetails: String
+	price: Int
+
+}
+
+type Query{
+
+	getUserByID(userID: ID): User
+	getAllUser:[User]
+	
+
+}
