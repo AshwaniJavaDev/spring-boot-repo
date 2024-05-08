@@ -1,0 +1,20 @@
+Things to learn AWS:
+	1. AWS SDK for Java
+	2. AWS Services
+		- Amazon S3 (Simple Storage Service): Object storage for storing and retrieving data (done)
+		- Amazon EC2 (Elastic Compute Cloud): Virtual servers for running applications and workloads.
+		- Amazon DynamoDB: Fully managed NoSQL database service.
+		- AWS Lambda: Serverless compute service for running code without provisioning or managing servers.
+
+Credentials:
+aws.accessKeyId=AKIAQ3EGTLG7AV6VJEP6
+aws.secretKey=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
+
+# AWS region
+aws.region=us-east-1
+
+# S3 bucket name
+aws.s3.bucket=ashwanipdfgenerator
+
+-> -Dcom.amazonaws.sdk.disableCertChecking=true // for without cert certificate in local
+
