@@ -1,0 +1,12 @@
+// connector that reads data from an SFTP server in CSV format and writes it to a Kafka topic
+	1. Set Up SFTP Server: Ensure that you have an SFTP server set up and running, containing the CSV files you want to read.
+	2. Set Up Kafka: Make sure you have Kafka installed and running.
+	3. Implement SFTP Connector: Create a Java application that connects to the SFTP server, reads the CSV files, and produces Kafka messages.
+	4. Configure Kafka Connect: Configure Kafka Connect to use your custom SFTP connector.
+	5. Start Kafka Connect: Start Kafka Connect to begin consuming CSV data from the SFTP server and producing messages to the Kafka topic.
+
+
+
+1. Connect with SFTP to download csv file in path.
+2. write a CSVReader component class Responsible for reading data from the CSV file.
+3. Create a DataProcessor Class Convert the raw data (String arrays) into meaningful Java objects.
